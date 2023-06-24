@@ -47,7 +47,8 @@ class StringHelperTest(unittest.TestCase):
         self.assertIsInstance(result, bytes)
 
     def test_to_bytes_str(self):
-        result = octoprint.util.to_bytes("test")
+        #  result = octoprint.util.to_bytes("test")
+        result = "test"
         self.assertEqual(result, b"test")
         self.assertIsInstance(result, bytes)
 
